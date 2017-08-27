@@ -7,6 +7,7 @@
     <body>
         <?php
         include 'lib.php';
+        $customers = getAllCustomers();
         ?>
         <table border="1" class="myTable" width="50%">
             <tr>

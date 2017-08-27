@@ -5,7 +5,7 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <form name="myForm" method="post" action="config.php">
+        <form name="myForm" method="post" action="inc.php">
             <p>Имя сотрудника</p>
             <input type="text" name="name">
             <p>Возраст</p>
