@@ -2,7 +2,7 @@
 
 $res = createNewCustomer($_POST['name'], $_POST['age'], $_POST['sex'], $_POST['phone']);
 if ($res === true) {
-	echo 'Сотрудник доюавлен';
+    echo 'Сотрудник доюавлен';
 } else {
-	echo 'Произошла ошибка добавления сотрудника';
+    echo 'Произошла ошибка добавления сотрудника';
 }

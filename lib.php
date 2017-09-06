@@ -1,8 +1,10 @@
 <?php
 
 /**
-*@author Sergey
-*@return array
+* Функция формирует массив сотрудников
+*
+* @author Sergey
+* @return array
 */
 function getAllCustomers() {
 
@@ -29,12 +31,14 @@ function getAllCustomers() {
 }
 
 /**
-*@param string $name string to output
-*@param integer $age integer to output
-*@param string $sex string to output
-*@param integer $phone integer to output
-*@author Sergey
-*@return boolean
+* Функция добавления сотрудников
+*
+* @author Sergey
+* @param string $name string to output
+* @param integer $age integer to output
+* @param string $sex string to output
+* @param integer $phone integer to output
+* @return boolean
 */
 function createNewCustomer($name, $age, $sex, $phone) {
 
@@ -48,5 +52,3 @@ function createNewCustomer($name, $age, $sex, $phone) {
         return false;
     }
 }
-
-?>

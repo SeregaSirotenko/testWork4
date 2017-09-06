@@ -6,7 +6,7 @@
     </head>
     <body>
         <?php
-        include 'lib.php';
+        include __DIR__ . '/lib.php';
         $customers = getAllCustomers();
         ?>
         <table border="1" class="myTable" width="50%">
@@ -23,7 +23,7 @@
                 <td><?= $myArray['sex']?></td>
                 <td><?= $myArray['phone']?></td>
             </tr>
-            <?php endforeach;?>
+            <?php endforeach; ?>
         </table>
     </body>
 </html>
